@@ -1,5 +1,6 @@
 src/math_helper.o src/math_helper.d: ../src/math_helper.c \
- ../src/math_helper.h D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math.h \
+ D:\Documentos\TC2\TPL2\inc/math_helper.h \
+ D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math_types.h \
  D:\Documentos\TC2\TPL2\CMSIS\Core\Include/cmsis_compiler.h \
  D:\Documentos\TC2\TPL2\CMSIS\Core\Include/cmsis_gcc.h \
@@ -30,7 +31,7 @@ src/math_helper.o src/math_helper.d: ../src/math_helper.c \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/filtering_functions.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/support_functions.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/quaternion_math_functions.h
-../src/math_helper.h:
+D:\Documentos\TC2\TPL2\inc/math_helper.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math_types.h:
 D:\Documentos\TC2\TPL2\CMSIS\Core\Include/cmsis_compiler.h:

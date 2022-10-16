@@ -43,7 +43,7 @@ main-build: TPL2_FIR_eq_rip.axf
 TPL2_FIR_eq_rip.axf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="TPL2_FIR_eq_rip.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "TPL2_FIR_eq_rip_Debug.ld" -o "TPL2_FIR_eq_rip.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"D:\Documentos\TC2\TPL2\lib" -Xlinker -Map="TPL2_FIR_eq_rip.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "TPL2_FIR_eq_rip_Debug.ld" -o "TPL2_FIR_eq_rip.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

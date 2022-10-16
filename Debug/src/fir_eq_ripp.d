@@ -1,4 +1,5 @@
 src/fir_eq_ripp.o src/fir_eq_ripp.d: ../src/fir_eq_ripp.c \
+ ../src/TPL2_FIR_eq_rip.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math_types.h \
  D:\Documentos\TC2\TPL2\CMSIS\Core\Include/cmsis_compiler.h \
@@ -30,8 +31,44 @@ src/fir_eq_ripp.o src/fir_eq_ripp.d: ../src/fir_eq_ripp.c \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/filtering_functions.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/support_functions.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/quaternion_math_functions.h \
- ../src/math_helper.h \
+ D:\Documentos\TC2\TPL2\inc/math_helper.h \
+ D:\Documentos\TC2\TPL2\inc/MyDR_ADC.h \
+ D:\Documentos\TC2\TPL2\inc\inc/bibliotecaInfoII.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_adc.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_tipos.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_EINT.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_pinsel.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_gpio.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_gpioInt.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_PLL.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_SysTick.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_UART0.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_UART1.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_7seg.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Infotronic.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Entradas.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_7seg.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Inicializacion.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Timers.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Timers.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_lcd.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_RGB.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Salidas.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Teclado.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Buzzer.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_adc.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Entradas.h \
+ D:\Documentos\TC2\TPL2\inc\inc/DR_Entradas.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_lcd.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Relays.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_RGB.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Strings.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Teclado.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_UART.h \
+ D:\Documentos\TC2\TPL2\inc\inc/PR_Buzzer.h \
+ D:\Documentos\TC2\TPL2\inc/MyDR_DAC.h \
  D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/filtering_functions.h
+../src/TPL2_FIR_eq_rip.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/arm_math_types.h:
 D:\Documentos\TC2\TPL2\CMSIS\Core\Include/cmsis_compiler.h:
@@ -63,5 +100,40 @@ D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/complex_math_functions.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/filtering_functions.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/support_functions.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/quaternion_math_functions.h:
-../src/math_helper.h:
+D:\Documentos\TC2\TPL2\inc/math_helper.h:
+D:\Documentos\TC2\TPL2\inc/MyDR_ADC.h:
+D:\Documentos\TC2\TPL2\inc\inc/bibliotecaInfoII.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_adc.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_tipos.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_EINT.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_pinsel.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_gpio.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_gpioInt.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_PLL.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_SysTick.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_UART0.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_UART1.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_7seg.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Infotronic.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Entradas.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_7seg.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Inicializacion.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Timers.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Timers.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_lcd.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_RGB.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Salidas.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Teclado.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Buzzer.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_adc.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Entradas.h:
+D:\Documentos\TC2\TPL2\inc\inc/DR_Entradas.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_lcd.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Relays.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_RGB.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Strings.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Teclado.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_UART.h:
+D:\Documentos\TC2\TPL2\inc\inc/PR_Buzzer.h:
+D:\Documentos\TC2\TPL2\inc/MyDR_DAC.h:
 D:\Documentos\TC2\TPL2\CMSIS\DSP\Include/dsp/filtering_functions.h:
