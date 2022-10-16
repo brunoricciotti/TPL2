@@ -1,0 +1,2 @@
+../src/MyDR_DAC.c:11:6:DAC_Init	8	static
+../src/MyDR_DAC.c:30:6:DAC_SetValue	16	static

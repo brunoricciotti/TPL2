@@ -1,0 +1,2 @@
+../src/MyDR_ADC.c:10:6:ADC_Init	8	static
+../src/MyDR_ADC.c:36:6:ADC_IRQHandler	16	static
