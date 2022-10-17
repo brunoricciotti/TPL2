@@ -26,10 +26,10 @@
 /* Must be a multiple of 16 */
 #define NUM_TAPS_ARRAY_SIZE              32
 #else
-#define NUM_TAPS_ARRAY_SIZE              32
+#define NUM_TAPS_ARRAY_SIZE              48
 #endif
 
-#define NUM_TAPS              			 32
+#define NUM_TAPS              			 48
 
 /* ------------------------------------------------------------------
  * Global variables for FIR LPF Example
